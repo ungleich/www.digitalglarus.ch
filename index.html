@@ -42,7 +42,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container" style="margin-right: -; margin-left: 0px;margin-right: 0px;">
 	<!-- Brand and toggle get grouped for better mobile display -->
 	<div class="navbar-header page-scroll">
 	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,7 +52,6 @@
 	    <span class="icon-bar"></span>
 	  </button>
 	  <p><a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo_white.svg"></a></p>
-	  <p>&nbsp;</p>
 	</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,25 +60,27 @@
 	    <li class="hidden active">
 	      <a href="#page-top"></a>
 	    </li>
-	    <li>
-	      <a class="page-scroll" href="#services">services</a></li>
+	   <!-- <li>
+	      <a class="page-scroll" href="#services">membership</a></li>
 	    <li></li>
 	    <li></li>
-	    <li> </li>
+	    <li> </li> -->
 	    <li>
-	      <a class="page-scroll" href="#portfolio">products</a></li>
-	    <li> </li>
+	      <a class="page-scroll" href="#portfolio">booking & price</a></li>
 	    <li>
-	      <a class="page-scroll" href="#about">About</a>
-	    </li>
-	    <li>
-	      <a class="page-scroll" href="#team">WHY UNGLEICH?</a>
+	      <a class="page-scroll" href="#team">history</a>
 	    </li>
 	    <li>
 	      <a class="page-scroll" href="http://blog.ungleich.ch">BLOG</a>
 	    </li>
 	    <li>
 	      <a class="page-scroll" href="#contact">Contact</a>
+	    </li>
+        <li>
+	      <a class="page-scroll" href="#contact">Log In</a>
+	    </li>
+         <li>
+	      <a class="page-scroll" href="#contact">Sign Up</a>
 	    </li>
 	  </ul>
 	</div>
@@ -108,7 +109,7 @@
              	<form class="form-inline">
                	<div class="form-group">
                 	<label class="sr-only" for="exampleInputPassword3">Pick a date</label>
-                  	<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                  	<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Pick a date">
                		<div class="form-group">
                  		<label class="sr-only" for="exampleInputEmail3">Email address</label>
                    		<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
@@ -125,168 +126,210 @@
       <div class="container">
 	<div class="row">
 	  <div class="col-lg-12 text-center wow fadeInDown">
-	    <h2 class="section-heading">our services</h2>
-	    <h3 class="section-subheading text-muted">We support our clients in all areas of Unix infrastructure.<p></p>
-	      Our top notch configuration management is refreshingly simple and reliable. </h3>
+	    <h2 class="section-heading">In Digital Glarus you can..</h2>
+        <hr class="primary">
 	  </div>
 	</div>
+    <!--dropdown icons-->
 	<div class="row text-center">
-	  <div class="col-sm-4">
+	  <div class="col-xs-6 col-sm-3">
+	    <div class="team-member wow fadeInDown" data-wow-delay="0.3s">
+	      <img src="img/services/sleep.svg" class="img-responsive img-toggle" alt="">
+	    </div>
+	  </div>
+	  <div class="col-xs-6 col-sm-3">
 	    <div class="team-member wow fadeInDown" data-wow-delay="0.5s">
-	      <img src="img/team/5.jpg" data-replaced="img/services/hosting.png" class="img-responsive img-circle img-toggle" alt="">
-	      <div class="team-member-caption inline-block">
-		<h4 class="portfolio-caption">Network</h4>
-		<p>&nbsp;</p>
-		<p><span class="text-muted">Find out more about our meetups at Digital Chalet Schwanden.</span></p>
-	      </div>
+	      <img src="img/services/eat.svg" class="img-responsive img-toggle" alt="">
 	    </div>
 	  </div>
-	  <div class="col-sm-4">
+	  <div class="col-xs-6 col-sm-3">
+	    <div class="team-member wow fadeInDown" data-wow-delay="0.7s">
+	      <img src="img/services/freshenup.svg" class="img-responsive img-toggle cursor-pointer" alt="">
+	    </div>
+	  </div>
+      <div class="col-xs-6 col-sm-3">
+	    <div class="team-member wow fadeInDown" data-wow-delay="0.8s">
+	      <img src="img/services/work.svg" class="img-responsive img-toggle" alt="">
+	  </div>
+      </div>
+      <div class="row text-center" style="margin-left: 0px; margin-right: 0px;">
+	  <div class="col-xs-6 col-sm-3">
+	    <div class="team-member wow fadeInDown" data-wow-delay="0.9s">
+	      <img src="img/services/enjoy.svg" class="img-responsive img-toggle" alt="">
+	    </div>
+	  </div>
+	  <div class="col-xs-6 col-sm-3">
 	    <div class="team-member wow fadeInDown" data-wow-delay="1s">
-	      <img src="img/team/4.jpg" data-replaced="img/services/configuration.png" class="img-responsive img-circle img-toggle" alt="">
-	      <div class="team-member-caption inline-block">
-		<h4 class="portfolio-caption">Cowork</h4>
-		<p>&nbsp;</p>
-		<p><span class="text-muted">Ruby on Rails, Django, Java, Webserver, Mailserver, any infrastructure that needs to configured, we provide comprehensive solutions. Amazon, rackspace or bare metal servers, we configure for you.</span></p>
-		<p class="text-muted">&nbsp;</p>
-	      </div>
+	      <img src="img/services/network.svg" class="img-responsive img-toggle" alt=""> 
 	    </div>
 	  </div>
-	  <div class="col-sm-4">
-	    <div class="team-member wow fadeInDown" data-wow-delay="1.5s">
-	      <img src="img/team/6.jpg"  data-replaced="img/services/linux.png" class="img-responsive img-circle img-toggle cursor-pointer" alt="">
-	      <h4 class="portfolio-caption">Direct Connection to Zurich</h4>
-	      <p class="text-muted">&nbsp;</p>
-	      <div class="team-member-caption inline-block">
-		<p class="text-muted">Let your developers develop! We take care of your system administration. Gentoo, Archlinux, Debian, Ubuntu, and many more.</p>
-	      </div>
+	  <div class="col-xs-6 col-sm-3">
+	    <div class="team-member wow fadeInDown" data-wow-delay="1.1s">
+	      <img src="img/services/lightbulb.svg" class="img-responsive img-toggle cursor-pointer" alt="">
+	    </div>
+	  </div>
+      <div class="col-xs-6 col-sm-3">
+	    <div class="team-member wow fadeInDown" data-wow-delay="1.2s">
+	      <img src="img/services/beinspired.svg" class="img-responsive img-toggle" alt="">
 	    </div>
 	  </div>
 	</div>
+      <!-- start:recommendationSlider -->
+       <hr class="primary">
+	    <div id="carousel-recommendation-ungleich" class="carousel slide ungleich ungleich-gallery ungleich-gallery-text-carousel" data-ride="carousel" data-interval="false">
+	      <!-- Indicators -->
+	      <ol class="carousel-indicators">
+		<li data-target="#carousel-recommendation-ungleich" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-recommendation-ungleich" data-slide-to="1"></li>
+		<li data-target="#carousel-recommendation-ungleich" data-slide-to="2"></li>
+	      </ol>
+
+	      <!-- Wrapper for slides -->
+	      <div class="carousel-inner" role="listbox">
+		<div class="item active">
+		  <p class="carousel-text text-muted text-center">
+		    When we first moved our company HQ to Glarus, 
+            we couldn't believe how beautiful and peaceful 
+            a workplace could be. Then we thought, we can't be 
+            the only ones appreciating it, more people should 
+            know about this.
+		  </p>
+		  <p class="text-center">
+		    <strong>- Nico Schottelius</strong>, CEO at ungleich GmbH
+		  </p>
+		</div>
+		<div class="item">
+		  <p class="carousel-text text-muted text-center">
+		    "It's a beautiful, friendly place where you can focus
+             and be productive. I love it how you can dive into 
+             the nature anytime you want. 
+             Ski, hiking, swimming, you name it."
+		  </p>
+		  <p class="text-center">
+		    <strong> - Alain Lafon </strong>, Co-founder of 200ok
+		  </p>
+		</div>
+		<div class="item">
+		  <p class="carousel-text text-muted text-center">
+		    "It's an inspiring project to participate. 
+            It's only an hour's train ride from Zurich, 
+            then you're in this beautiful coworking space."
+		  </p>
+		  <p class="text-center">
+		    <strong>- Hans-Peter Legler,</strong>
+		    CTO of Cisco Switzerland
+		  </p>
+		</div>
+	      </div>
+	    </div>
+	    <!-- end:recommendationSlider -->
     </div></section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-      <div class="container">
-	<div class="row">
+    <section id="portfolio" class="no-padding">
+      <div class="container-fluid">
+	<!--<div class="row">
 	  <div class="col-lg-12 text-center wow fadeInDown">
-	    <h2 class="section-heading">Hosting Products</h2>
-	    <h3 class="section-subheading text-muted">Our Hosting Products: </h3>
-	  </div>
+	    <h2 class="section-heading">here you can</h2>
+	    <h3 class="section-subheading text-muted">Join our community. Inspire and be inspired.</h3>
+	  </div>-->
 	</div>
-	<div class="row">
-	  <div class="col-md-4 col-sm-6 portfolio-item wow fadeInDown" data-wow-delay="0.5s">
-	    <img src="img/portfolio/roundicons.png" class="img-responsive inline-block" alt="">
-	    <div class="portfolio-caption inline-block">
-	      <h4>HA Hosting</h4>
-	      <p class="text-muted">&nbsp;</p>
-	      <p class="text-muted">We offer high availablity hosting (HA) in Germany and in Switzerland. Our infrastructure is powered by Free and Open Source Software like OpenNebula, Qemu and GlusterFS.</p>
-	    </div>
+	<div class="row no-gutter popup-gallery">
+	  <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item wow fadeInDown text-center" data-wow-delay="0.5s">
+        <img src="img/portfolio/excursion.png" class="img-responsive inline-block" alt=""> 
+        <div class="caption portfolio-caption-white">excursions</div>
+		</div><div class="col-lg-4 col-md-4 col-sm-6 portfolio-item wow fadeInDown text-center" data-wow-delay="0.8s">
+	    <img src="img/portfolio/ski.png" class="img-responsive inline-block" alt="">
+        <div class="caption portfolio-caption-white">enjoy the great outdoors</div>
 	  </div>
-	  <div class="col-md-4 col-sm-6 portfolio-item wow fadeInDown" data-wow-delay="1s">
-	    <img src="img/portfolio/startup-framework.png" class="img-responsive inline-block" alt="">
-	    <div class="portfolio-caption inline-block">
-	      <h4>Rails Hosting</h4>
-	      <p class="text-muted">&nbsp;</p>
-	      <p class="text-muted">Ready to go live with your Ruby on Rails application? We offer you ready-to-deploy virtual machines or configure your existing infrastructure for Ruby on Rails.</p>
-	    </div>
+	  <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item wow fadeInDown text-center" data-wow-delay="1.1s">
+	    <img src="img/portfolio/concert.png" class="img-responsive inline-block" alt="">
+        <div class="caption portfolio-caption-white">cultural events</div>
 	  </div>
-	  <div class="col-md-4 col-sm-6 portfolio-item wow fadeInDown" data-wow-delay="1.5s">
-	    <img src="img/portfolio/treehouse.png" class="img-responsive inline-block" alt="">
-	    <div class="portfolio-caption inline-block">
-	      <h4>Configuration as a Service</h4>
-	      <p class="text-muted">&nbsp;</p>
-	      <p class="text-muted">You are in need for a configuration?<br>With ungleich you have found an experienced team that configure your systems to provide service like DNS, E-Mail, Databases or Webservers.</p>
-	    </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item wow fadeInDown text-center" data-wow-delay="1.2s">
+	    <img src="img/portfolio/inspire.png" class="img-responsive inline-block" alt="">
+        <div class="caption portfolio-caption-white">be inspired</div>
 	  </div>
-	</div>
+	  <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item wow fadeInDown text-center" data-wow-delay="1.3s">
+	    <img src="img/portfolio/workshop.png" class="img-responsive inline-block" alt="">
+        <div class="caption portfolio-caption-white">workshops</div>
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-sm-6 portfolio-item wow fadeInDown text-center" data-wow-delay="1.4s">
+	    <img src="img/portfolio/recharge.png" class="img-responsive inline-block" alt="">
+        <div class="caption portfolio-caption-white">recharge</div>
+	  </div>
+   </div>
       </div>
 
     </section>
+    <!--aside-->
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action aside-caption-white">
+                 Join our community. Be our member now!
+                <br>
+                <br>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-primary sr-button">    Sign Up    </a>
+            </div>
+        </div>
+    </aside>
+    <!-- Half Page Image Background Carousel -->
+    <section id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-	<div class="row">
-	  <div class="col-lg-12 text-center wow fadeInDown">
-	    <h2 class="section-heading">ABOUT</h2>
-	    <h3 class="section-subheading text-muted">The timeline of ungleich</h3>
-	  </div>
-	</div>
-	<div class="row">
-	  <div class="col-lg-12">
-	    <ul class="timeline">
-	      <li>
-		<div class="timeline-image">
-		  <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-		</div>
-		<div class="timeline-panel wow slideInLeft">
-		  <div class="timeline-heading">
-		    <h4>2000</h4>
-		  </div>
-		  <div class="timeline-body">
-		    <p>The first incarnation of ungleich</p>
-		    <p>in Germany                              </p>
-		  </div>
-	      </div></li>
-	      <li class="timeline-inverted">
-		<div class="timeline-image">
-		  <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-		</div>
-		<div class="timeline-panel wow slideInRight">
-		  <div class="timeline-heading">
-		    <h4>2013</h4>
-		  </div>
-		  <div class="timeline-body">
-		    <p>ungleich founded </p>
-		    <p>in Switzerland                                </p>
-		  </div>
-		</div>
-	      </li>
-	      <li>
-		<div class="timeline-image">
-		  <img class="img-circle img-responsive" src="img/about/6.jpg" alt="">
-		</div>
-		<div class="timeline-panel wow slideInLeft">
-		  <div class="timeline-heading">
-		    <h4>2014</h4>
-		  </div>
-		  <div class="timeline-body">
-		    <p>ungleich present at various conferences :<br><a href="http://www.linuxtag.org/2014/en/program/talk-details/?eventid=1238">Linuxtag</a>, <a href="https://www.usenix.org/conference/ucms14/summit-program/presentation/schottelius">UCMS</a>, Linux Erfa, <a href="https://www.ethz.ch/en.html">ETH Zurich</a><br>
-		    </p>
-		  </div>
-		</div>
-	      </li>
-	      <li class="timeline-inverted">
-		<div class="timeline-image">
-		  <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-		</div>
-		<div class="timeline-panel wow slideInRight">
-		  <div class="timeline-heading">
-		    <h4> 2015</h4>
-		  </div>
-		  <div class="timeline-body">
-		    <p>ungleich introduces HA-Hosting </p>
-		    <p>and introduces affordable 24X7 support.</p>
-		    <p>ungleich launches <a href="https://digitalglarus.ungleich.ch/digitalglarus/">Digital Glarus project</a></p>
-		  </div>
-		</div>
-	      </li>
-	      <li class="timeline-inverted">
-		<div class="timeline-image wow slideInDown">
-		  <h4>and<br>the story continues!</h4>
-		  <p>&nbsp;</p>
-		</div>
-	      </li>
-	    </ul>
-	  </div>
-	</div>
-      </div>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/portfolio/slider_1.png)"></div>
+                <div class="carousel-caption carousel-caption-text">
+                    OpenNebula workshop : <br> 
+                    push your geeky boundary with us at Digital Chalet
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/portfolio/slider_2.png)"></div>
+                <div class="carousel-caption carousel-caption-text">
+                   Lorawan meetup :  <br>
+                   connect with like-minded people and discuss your latest tech obsession.
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->  
+                <div class="fill" style="background-image:url(img/portfolio/slider_3.png)"></div>
+                <div class="carousel-caption carousel-caption-text">
+                   Cooking and Hacking at Digital Chalet Schwanden
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/portfolio/slider_4.png)"></div>
+                <div class="carousel-caption carousel-caption-text">
+                  Dive into the beautiful nature around you anytime you want
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
     </section>
-
+<!--carousel-->
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+<!--    <section id="team" class="bg-light-gray">
       <div class="container">
 	<div class="row">
 	  <div class="col-sm-16 text-center center-block wow fadeInDown">
@@ -298,16 +341,17 @@
 	<div class="row">
 	  <div class="col-sm-10 center-block wow fadeInDown">
 	    <!-- start:recommendationSlider -->
+<!--        
 	    <div id="carousel-recommendation-ungleich" class="carousel slide ungleich ungleich-gallery ungleich-gallery-text-carousel" data-ride="carousel" data-interval="3000">
 	      <!-- Indicators -->
-	      <ol class="carousel-indicators">
+<!--	      <ol class="carousel-indicators">
 		<li data-target="#carousel-recommendation-ungleich" data-slide-to="0" class="active"></li>
 		<li data-target="#carousel-recommendation-ungleich" data-slide-to="1"></li>
 		<li data-target="#carousel-recommendation-ungleich" data-slide-to="2"></li>
 	      </ol>
 
 	      <!-- Wrapper for slides -->
-	      <div class="carousel-inner" role="listbox">
+<!--	      <div class="carousel-inner" role="listbox">
 		<div class="item active">
 		  <img class="center-block img-client img-responsive" src="./img/client-logos/teralytics.png" />
 		  <p class="carousel-text text-muted text-center">
@@ -365,7 +409,7 @@
 	      </div>
 	    </div>
 	    <!-- end:recommendationSlider -->
-	  </div>
+<!--	  </div>
 	</div>
       </div>
       <div class="col-sm-16 text-center center-block">
@@ -373,7 +417,7 @@
       </div>
     </section>
     <!-- Software we use -->
-    <aside class="clients">
+<!--    <aside class="clients">
       <div class="container">
 	<div class="row">
 	  <div class="col-xs-3 col-md-3">
@@ -489,23 +533,22 @@
       </div>
 
     </aside>
-
+-->
     <section id="contact">
-      <div class="container">
-	<div class="row" class="wow fadeInDown">
-	  <div class="col-lg-12 text-center wow fadeInDown">
-	    <h2 class="section-heading">Contact Us</h2>
-	    <br>
-	    <h3 class="intro-smallcap">Join us at <a href="http://www.digitalglarus.ch">Digital Glarus</a>,
-	      a great co-working space in the middle of Alps! <p></p> You can contact us at </h3>
-	    <h3 class="intro-smallcap"><a href="mailto:info@ungleich.ch"><i class="fa fa-envelope">info@ungleich.ch</i></a></h3>
-	    <h3 class="intro-smallcap">
-	      <p></p>
-	    </h3>
-	    <br>
-	    <h3 class="intro-smallcap"><i class="fa fa-phone"></i> (044) 534-66-22<p></p></h3>
-	    <br>
+      <div class="fill">
+	   <div class="row" class="wow fadeInDown">
+	    <div class="col-lg-12 text-center wow fadeInDown">
+	     <h2 class="section-heading">Contact Us</h2>
+	      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.4267495037207!2d9.070190915609343!3d46.99259307914885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47852e9322cc1971%3A0xf1558647dfdfaa60!2sIn+der+Au+7%2C+8762+Glarus+S%C3%BCd!5e0!3m2!1sen!2sch!4v1470238006004" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	    <div class="col-md-4 map-title">
+        Digital Glarus<br>
+        <span class="map-caption">In der Au 7 Schwanden 8762 Switzerland
+        <br>info@digitalglarus.ch
+        <br>
+	    (044) 534-66-22
 	    <p>&nbsp;</p>
+        </span>
 	  </div>
 	  <p>&nbsp;</p>
 	</div>
