@@ -13,3 +13,9 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+.supporter {
+	font-size:18px;
+	font-family:raleway, monteserrat, open sans, helvitica neue, sans-serif;
+	text-align:center;
+	line-height: 2.3
+}
