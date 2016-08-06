@@ -26,6 +26,16 @@ header {
 	color: #fff;
 }
 
+.supporter-black {
+    padding: 15px 100px 15px;
+	color: #000;
+	font-size:18px;
+	font-weight: 200;
+	font-family:raleway, monteserrat, open sans, helvitica neue, sans-serif;
+	text-align:center;
+	line-height: 1.8;
+}
+
 .supporter-headline {
 	color: #fff;
 	font-size: 36px;
