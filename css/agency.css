@@ -100,6 +100,13 @@ h6 {
 
 .bg-dark {
   background-color: #0f1221;
+  background-image: url(../img/bg-glarus.png);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   color: white;
 }
 
@@ -114,6 +121,8 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #88c7d7;
+	letter-spacing: 1px;
+	padding-right: 10px;
 }
 
 .btn-primary:hover,
