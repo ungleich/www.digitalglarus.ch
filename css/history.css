@@ -18,4 +18,31 @@ header {
 	font-family:raleway, monteserrat, open sans, helvitica neue, sans-serif;
 	text-align:center;
 	line-height: 2.5;
+	color: #fff;
 }
+
+.supporter-intro {
+    padding: 15px 100px 15px;
+	color: #fff;
+}
+
+.supporter-headline {
+	color: #fff;
+	font-size: 36px;
+	text-transform: uppercase;
+    font-family: 'Raleway', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+	padding-top: 50px;
+	margin-top: 0;
+    margin-bottom: 15px;
+}
+.supporter-bg {
+	background-image:url(../img/bg-supporter.png);
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+	
