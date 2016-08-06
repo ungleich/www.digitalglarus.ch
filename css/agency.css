@@ -220,6 +220,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
 	font-family: "Helvetica Neue", Helvetica, Arial, cursive;
 	color: #a1cfd7;
+	padding-top: 10px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -317,18 +318,6 @@ header {
     -o-background-size: cover;
 }
 
-#head2 {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/history/thankyou.png);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 header .intro-text {
     padding-top: 100px;

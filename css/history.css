@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#head2 {
+header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/history/thankyou.png);
+    background-image: url(../img/header_bg_3.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
