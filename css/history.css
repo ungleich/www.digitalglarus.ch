@@ -65,8 +65,8 @@ header {
 	font-size: 44px;
     display: block;
     text-align: center;
-    margin: 30px auto 40px;
-    color: #88c7d7;
+    margin: 30px auto 30px;
+	color: #88c7d7;
 }
 
 .glyphicon-heart {
@@ -94,6 +94,21 @@ header {
     color: #88c7d7;
 }
 
+/*.glyphicon-inverse {
+	display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #88c7d7;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}*/
+	
 #hr.grey {
     border-color: #ddd;
     border-width: 1px;
