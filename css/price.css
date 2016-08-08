@@ -13,9 +13,9 @@ header {
     -o-background-size: cover;
 }
 
-.intro-headline {
+.intro-headline-small{
     font-family: 'Raleway' , "Open Sans Bold", Helvetica, Arial, "Arial Bold", sans-serif;
-    font-size: 56px;
+    font-size: 46px;
     font-style: normal;
     font-weight: 200;
     text-transform: none;
@@ -23,9 +23,18 @@ header {
     color: #FFF;
 }
 
+
+.intro-smaller {
+    font-family: 'Raleway' ,'Montserrat' ,"Open Sans Bold", Helvetica, Arial, "Arial Bold", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    text-transform: none;
+    color: #FFF;
+}
 .intro-price {
     padding-top: 70px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 .ul{
@@ -35,4 +44,15 @@ header {
     font-weight: 300;
     color: #fff;
     margin: 40px 0;
+}
+.price-list{
+    background-color: transparent;
+	font-size: 18px;
+    border: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.price{
+	text-transform: none;
 }
