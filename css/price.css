@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header_bg_5.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-headline {
+    font-family: 'Raleway' , "Open Sans Bold", Helvetica, Arial, "Arial Bold", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 200;
+    text-transform: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
