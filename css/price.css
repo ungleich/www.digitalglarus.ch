@@ -22,3 +22,17 @@ header {
     text-transform: uppercase;
     color: #FFF;
 }
+
+.intro-price {
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+.ul{
+    columns: 2;
+	padding: 15px 0;
+	font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin: 40px 0;
+}
