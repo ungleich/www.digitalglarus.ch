@@ -58,8 +58,7 @@
 }
 
 #price {
-    background-color: #ddd;
-	background-image: url(../img/bg-price.jpg);
+	background-image: url(../img/bg-price.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
