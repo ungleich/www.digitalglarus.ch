@@ -111,6 +111,12 @@
 	padding: 2em;
 }
 
+.signup-lead {
+	font-size: 16px;
+    line-height: 1.4em;
+	text-transform: none;	
+}
+
 .form-control {
 	margin-bottom: 1em;
     border-image-source: initial;
@@ -125,4 +131,27 @@
     border-color: rgba(37, 39, 41, 0.498039);
     padding: 10.5px 10px;
     transition: all 0.15s ease-in-out;
+}
+
+.signup-text {
+    padding-top: 0.5em;
+}
+
+.signup-text a{
+	font-weight : 400;
+	margin-left: 1em;
+	color: #88c7d7;
+}
+
+.signup-box {
+	padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 15px; 
+    padding-bottom: 15px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: inherit;
+    background-color: #fff;
 }
