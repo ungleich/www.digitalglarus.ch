@@ -54,5 +54,32 @@
 }
 
 .price{
-	text-transform: none;
+	text-transform: none;	
+}
+
+#price {
+    background-color: #ddd;
+	background-image: url(../img/bg-price.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.price-box{
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 30px; 
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #fff;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.graph{
+	padding-top: 30px;
 }
