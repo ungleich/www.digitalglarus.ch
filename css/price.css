@@ -86,3 +86,43 @@
 .glyphicon-ok{
 	margin-right: 0.5em;
 }
+
+.glyphicon-plus{
+	font-size: 42px;
+    display: block;
+    text-align: center;
+    margin: 40px auto 20px;
+    color: #88c7d7;
+}
+
+.signup-container {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.greyline{
+	border-color: #ddd;
+    border-width: 1px;
+    max-width: 100px;
+}
+
+.signup-form {
+	padding: 2em;
+}
+
+.form-control {
+	margin-bottom: 1em;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-height: 20px;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(37, 39, 41, 0.498039);
+    padding: 10.5px 10px;
+    transition: all 0.15s ease-in-out;
+}
