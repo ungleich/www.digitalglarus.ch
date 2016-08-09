@@ -69,14 +69,14 @@
 .price-box{
     padding-left: 15px;
     padding-right: 15px;
-	padding-top: 30px; 
+	padding-top: 15px; 
     padding-bottom: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
-    color: inherit;
-    background-color: #fff;
-	margin-top: 30px;
 	margin-left: 10px;
 	margin-right: 10px;
+	color: inherit;
+    background-color: #fff;
 }
 
 .graph{
