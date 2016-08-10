@@ -137,7 +137,7 @@
     padding-top: 0.5em;
 }
 
-.signup-text a .signup-notice a{
+.signup-text a .signup-notice a {
 	font-weight : 400;
 	margin-left: 1em;
 	color: #5e8eb7;
@@ -156,8 +156,16 @@
     background-color: #fff;
 }
 
-.signup-notice{
+.signup-notice {
     padding-top: 0.5em;
 	font-size: 12px;
 	
+}
+
+.glyphicon-user{
+    font-size: 42px;
+    display: block;
+    text-align: center;
+    margin: 40px auto 20px;
+    color: #88c7d7;
 }
