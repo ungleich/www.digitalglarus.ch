@@ -104,11 +104,18 @@
 .greyline{
 	border-color: #ddd;
     border-width: 1px;
-    max-width: 100px;
+    max-width: 300px;
+}
+
+.greyline-long{
+	border-color: #ddd;
+    border-width: 1px;
+    max-width: 90%;
 }
 
 .signup-form {
 	padding: 2em;
+	margin-bottom: 0px;
 }
 
 .signup-lead {
@@ -175,4 +182,79 @@
     text-align: center;
     margin: 40px auto 20px;
     color: #88c7d7;
+}
+
+.membership-amount{
+	font-size: 18px;
+    text-align: right;
+	width: 100%;
+}
+.payment-box{
+    padding-top: 3em;
+	padding-left: 30px;
+    padding-right: 30px; 
+    padding-bottom: 15px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: inherit;
+    background-color: #fff;
+}
+
+.membership-lead {
+	font-size: 16px;
+    line-height: 1.4em;
+	text-transform: none;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.order-name{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 400;
+}
+
+.order-person{
+	font-size: 18px;
+	text-transform: none;
+	text-align: right;
+}
+
+.header{
+    padding: 12px 15px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #f7f7f7;
+    background-color: #e2e2e2;
+}
+
+.payment-total{
+    font-size: 16px;
+    text-transform: none;
+    margin: 0;
+    font-weight: 200;
+}
+
+.payment-sum {
+	text-align: right;
+	margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #494949;
+}
+.payment-result {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #494949;
+	text-align: right;
+}
+
+.order-bottom-text {
+    padding-top: 0.5em;
+	color: #777;
+	padding-left: 15px;
 }
