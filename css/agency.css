@@ -118,7 +118,7 @@ h6 {
     border-color: #88c7d7;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     background-color: #88c7d7;
 	letter-spacing: 1px;
@@ -131,7 +131,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	border-color: #ba1924;
     color: #fff;
     background-color: #ba1924;
