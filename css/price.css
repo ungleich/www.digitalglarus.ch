@@ -137,10 +137,16 @@
     padding-top: 0.5em;
 }
 
-.signup-text a .signup-notice a {
+.signup-text a {
 	font-weight : 400;
-	margin-left: 1em;
-	color: #5e8eb7;
+	margin-left: 0.5em;
+	color: #31708f;
+}
+
+.signup-notice a {
+	font-weight : 400;
+	margin-left: 0.5em;
+	color: #31708f;
 }
 
 .signup-box {
