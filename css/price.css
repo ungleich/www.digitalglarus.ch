@@ -142,9 +142,16 @@
     transition: all 0.15s ease-in-out;
 }
 
+.notice-box {
+   padding-top: 1.5em;
+   padding-bottom: 2em;
+}
+
 .signup-text {
-    padding-top: 0.5em;
 	color: #777;
+	margin: 0;
+	line-height: 1.5;
+	font-size: 13px;
 }
 
 .signup-text a {
@@ -262,7 +269,7 @@
     padding: 12px 15px;
     margin-bottom: 0;
     border-bottom: 2px solid #f7f7f7;
-    background-color: #e2e2e2;
+    background-color: #a1cfd7;
 }
 
 .payment-total{
