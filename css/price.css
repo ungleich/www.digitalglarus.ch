@@ -237,12 +237,12 @@
 }
 
 .order-person{
-	font-size: 18px;
-	text-transform: none;
-	font-weight: 200;
 	text-align: right;
-	padding-bottom: 2em;
-	color: #999;
+	margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #494949;
+	text-transform: none;
 }
 
 .order-item{
@@ -340,6 +340,10 @@
 	letter-spacing: 1px;
 	font-size: 12px;
 	line-height: 1;
+}
+
+.custom-control-description a{
+	color: #31708f;
 }
 
 .custom-control{
