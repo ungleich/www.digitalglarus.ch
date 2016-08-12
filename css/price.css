@@ -371,7 +371,7 @@
    padding-bottom: 0.5em;
 }
 
-.date-oneline{
+.date-oneline {
     font-size: 16px;
     text-transform: none;
     margin: 0;
@@ -380,7 +380,20 @@
 	color: #555;
 }
 
+.btn-grey {
+	background-color: #b2b7b9;;
+	border-color: #b2b7b9;;
+}
 
-
-
+.btn-grey:hover,
+.btn-grey:focus,
+.btn-grey:active,
+.btn-grey.active,
+.open .dropdown-toggle.btn-grey {
+    text-transform: uppercase;
+	font-weight: 400;
+	border-color: #ddd;
+    color: #fff;
+    background-color: #ddd;
+}
 
