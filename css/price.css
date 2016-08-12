@@ -366,9 +366,19 @@
 	margin-top: 20px;
 }
 
+.date-box {
+   padding-top: 1.5em;
+   padding-bottom: 0.5em;
+}
 
-
-
+.date-oneline{
+    font-size: 16px;
+    text-transform: none;
+    margin: 0;
+    font-weight: 400;
+	letter-spacing: 1px;
+	color: #555;
+}
 
 
 
