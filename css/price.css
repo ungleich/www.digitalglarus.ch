@@ -397,3 +397,11 @@
     background-color: #ddd;
 }
 
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-grey {
+	background-color: #5699b9;
+	border-color: #5699b9;
+}
