@@ -110,7 +110,7 @@
 .greyline-long{
 	border-color: #ddd;
     border-width: 1px;
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .signup-form {
@@ -468,4 +468,9 @@
 	letter-spacing: 0.1px;
 	text-align: left;
 	padding-left: 15px;
+}
+
+.button-center-box {
+	margin-top: 20px;
+    text-align: center;
 }
