@@ -152,6 +152,9 @@
 	margin: 0;
 	line-height: 1.5;
 	font-size: 13px;
+	text-transform: none;
+	font-family: "Helvetica Neue" ,"Helvetica Neue" ,"Open Sans" ,"Arial" , sans-serif;
+	color: #999;
 }
 
 .signup-text a {
