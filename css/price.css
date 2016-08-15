@@ -611,11 +611,12 @@ th {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
     color: inherit;
     background-color: #fff;
+	text-align: left;
 }
