@@ -1200,3 +1200,24 @@ hr {
     float: right!important;
     margin-right: -100px;
 }
+
+#whatwedo {
+	background-color: #fff;
+	margin-top: 50px;
+}
+
+.help-box {
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0px;
+}
+
+.help-box-group {
+	padding-top: 2em;
+}
+
+.submit-box {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
