@@ -316,6 +316,13 @@
     padding-top: 0.5em;
 	color: #777;
 	padding-left: 15px;
+	font-size: 13px;
+}
+
+.order-bottom-text a {
+	font-weight : 400;
+	margin-left: 0.5em;
+	color: #31708f;
 }
 
 .order-summary {
@@ -463,6 +470,18 @@
 }
 
 .member-name{
+	font-size: 16px;
+	text-transform: none;
+	font-weight: 400;
+	text-align: left;
+	width: 100%;
+	letter-spacing: 0.1px;
+	text-align: left;
+	padding-left: 15px;
+	line-height: 0.35em;
+}
+
+.history-name{
 	font-size: 16px;
 	text-transform: none;
 	font-weight: 400;
