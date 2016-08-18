@@ -51,6 +51,15 @@ header {
     line-height: 50px;
 }
 
+.supportus .intro-headline-big {
+    font-family: 'Raleway' , "Open Sans Bold", Helvetica, Arial, "Arial Bold", sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 200;
+    text-transform: none;
+    text-transform: uppercase;
+    color: #fff;
+}
 @media(min-width:768px) {
     .supportus .intro-text {
 	padding-top: 200px;
