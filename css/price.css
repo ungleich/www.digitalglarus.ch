@@ -204,6 +204,13 @@
     color: #88c7d7;
 	margin-top: 0px;
 }
+
+.glyphicon-flag {
+	font-size: 44px;
+    display: block;
+    text-align: center;
+    margin: 30px auto 30px;
+	color: #88c7d7;
 }
 
 
@@ -620,4 +627,10 @@ th {
     background-color: #fff;
 	text-align: left;
 	font-size: 15px;
+}
+
+.term-head {
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 0 0px;
 }
