@@ -196,6 +196,14 @@
     color: #88c7d7;
 }
 
+.glyphicon-calendar{
+    font-size: 42px;
+    display: block;
+    text-align: center;
+    margin: 40px auto 20px;
+    color: #88c7d7;
+}
+
 .glyphicon-ok {
 	font-size: 42px;
     display: block;
